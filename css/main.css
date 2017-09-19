@@ -1,0 +1,17 @@
+html {
+  font-family: sans-serif;
+}
+
+.colour {
+  background-color: #F4C649;
+  height: 100vh;
+  margin: 2em;
+
+  position: relative;
+}
+
+.text {
+  position: absolute;
+  top: .75em;
+  left: 1em;
+}
