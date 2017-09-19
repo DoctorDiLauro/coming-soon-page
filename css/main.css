@@ -29,32 +29,45 @@ html {
   border-bottom: #000 solid 7px;
 }
 
+.tagline {
+  font-size: 100%;
+  line-height: 1.2;
+}
+
 @media only screen and (min-width: 25em) {
 
 
-    .colour {
-      margin: 2.5em;
-    }
+  .colour {
+    margin: 2.5em;
+  }
 
   .name {
     font-size: 500%;
 
-      border-bottom: #000 solid 10px;
+    border-bottom: #000 solid 10px;
+  }
+
+  .tagline {
+    font-size: 140%;
   }
 
 }
 
 @media only screen and (min-width: 38em) {
 
-    .colour {
-      margin: 3em;
-    }
+  .colour {
+    margin: 3em;
+  }
 
-    .name {
-      font-size: 700%;
+  .name {
+    font-size: 700%;
 
-      border-bottom: #000 solid 12px;
-    }
+    border-bottom: #000 solid 12px;
+  }
+
+  .tagline {
+    font-size: 195%;
+  }
 
 }
 
@@ -68,6 +81,10 @@ html {
     font-size: 800%;
 
     border-bottom: #000 solid 16px;
+  }
+
+  .tagline {
+    font-size: 220%;
   }
 
 }
@@ -86,6 +103,10 @@ html {
     font-size: 900%;
 
     border-bottom: #000 solid 20px;
+  }
+
+  .tagline {
+    font-size: 250%;
   }
 
 }
