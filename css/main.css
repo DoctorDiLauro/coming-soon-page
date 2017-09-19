@@ -10,8 +10,82 @@ html {
   position: relative;
 }
 
+.colour:hover {
+  background-image: url("../images/self.gif");
+  background-size:cover;
+  background-position: bottom;
+}
+
 .text {
   position: absolute;
   top: .75em;
   left: 1em;
+}
+
+.name {
+  font-size: 300%;
+  line-height: .9;
+
+  border-bottom: #000 solid 7px;
+}
+
+@media only screen and (min-width: 25em) {
+
+
+    .colour {
+      margin: 2.5em;
+    }
+
+  .name {
+    font-size: 500%;
+
+      border-bottom: #000 solid 10px;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+    .colour {
+      margin: 3em;
+    }
+
+    .name {
+      font-size: 700%;
+
+      border-bottom: #000 solid 12px;
+    }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .colour {
+    margin: 3.5em;
+  }
+
+  .name {
+    font-size: 800%;
+
+    border-bottom: #000 solid 16px;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .colour {
+    margin: 4em;
+  }
+
+  .colour:hover {
+    background-position: center 80%;
+  }
+
+  .name {
+    font-size: 900%;
+
+    border-bottom: #000 solid 20px;
+  }
+
 }
