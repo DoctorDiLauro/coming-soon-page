@@ -6,7 +6,7 @@ html {
 
 .border {
   background-color: #fff;
-  height: 95vh;
+  height: 100vh;
   padding: 2em;
 
   position: relative;
@@ -14,7 +14,7 @@ html {
 
 .colour {
   background-color: #F4C649;
-  height: 90vh;
+  height: 100vh;
 }
 
 .text {
