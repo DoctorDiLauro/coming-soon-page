@@ -4,12 +4,17 @@ html {
   font-weight: bold;
 }
 
-.colour {
-  background-color: #F4C649;
-  height: 100vh;
-  margin: 2em;
+.border {
+  background-color: #fff;
+  height: 95vh;
+  padding: 2em;
 
   position: relative;
+}
+
+.colour {
+  background-color: #F4C649;
+  height: 90vh;
 }
 
 .text {
@@ -33,8 +38,9 @@ html {
 @media only screen and (min-width: 25em) {
 
 
-  .colour {
-    margin: 2.5em;
+  .border {
+    padding: 2.5em;
+    height: 90vh;
   }
 
   .name {
@@ -51,8 +57,9 @@ html {
 
 @media only screen and (min-width: 38em) {
 
-  .colour {
-    margin: 3em;
+  .border {
+    padding: 3em;
+    height: 90vh;
   }
 
   .name {
@@ -69,8 +76,9 @@ html {
 
 @media only screen and (min-width: 60em) {
 
-  .colour {
-    margin: 3.5em;
+  .border {
+    padding: 3.5em;
+    height: 90vh;
   }
 
   .name {
@@ -87,12 +95,9 @@ html {
 
 @media only screen and (min-width: 90em) {
 
-  .colour {
-    margin: 4em;
-  }
-
-  .colour:hover {
-    background-position: center 65%;
+  .border {
+    padding: 4em;
+    height: 90vh;
   }
 
   .name {
