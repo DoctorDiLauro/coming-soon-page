@@ -1,5 +1,7 @@
 html {
-  font-family: sans-serif;
+  font-family: "neuzeit-grotesk", sans-serif;
+  font-style: normal;
+  font-weight: bold;
 }
 
 .colour {
@@ -8,13 +10,6 @@ html {
   margin: 2em;
 
   position: relative;
-}
-
-.colour:hover {
-  background-image: url("../images/self.gif");
-  background-size: cover;
-  background-position: bottom;
-  background-repeat: no-repeat;
 }
 
 .text {
