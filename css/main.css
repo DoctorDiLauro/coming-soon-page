@@ -10,7 +10,6 @@ html {
   padding: 2em;
 
   position: relative;
-  overflow: hidden;
 }
 
 .colour {
@@ -41,7 +40,6 @@ html {
 
   .border {
     padding: 2.5em;
-    height: 90vh;
   }
 
   .name {
@@ -60,7 +58,6 @@ html {
 
   .border {
     padding: 3em;
-    height: 90vh;
   }
 
   .name {
@@ -79,7 +76,6 @@ html {
 
   .border {
     padding: 3.5em;
-    height: 90vh;
   }
 
   .name {
@@ -98,7 +94,6 @@ html {
 
   .border {
     padding: 4em;
-    height: 90vh;
   }
 
   .name {
