@@ -15,6 +15,22 @@ html {
 .colour {
   background-color: #F4C649;
   height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.self {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  display: none;
+}
+
+.colour:hover .self {
+  display: block;
 }
 
 .text {
@@ -104,6 +120,9 @@ html {
 
   .tagline {
     font-size: 250%;
+  }
+  .self {
+    transform: translate(-50%,-50%) scale(1.2);
   }
 
 }
